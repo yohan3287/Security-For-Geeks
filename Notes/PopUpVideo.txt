@@ -1,0 +1,3 @@
+https://www.youtube.com/watch?v=7-sE2-ZIz44
+color: #14E4F0;
+background: linear-gradient(to right, #0099cc 0%, #9999ff 100%);
