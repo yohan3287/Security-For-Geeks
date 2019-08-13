@@ -1,0 +1,71 @@
+SecurityForGeeks Rev V.10
+
+IMPORTANT NOTICE!!!!
+[WEB]
+jalanin server-run.bat dulu buat bikin server phpnya
+lalu jalanin init-web.bat buat buka webnya.
+
+[CREATE DB DI PHPMYADMIN]
+jalanin server-run.bat dulu buat bikin server phpnya
+lalu jalanin init-db.bat buat bikin dbnya.
+ 
+
+
+[CHANGE LOG V.7]
++ Ganti semua Title jd lebih rapi
++ Menu Register - Sign Up yang lebih bagus + udh optimized dan siap linked utk backend
++ Penyesuaian CSS : Ganti value pada bagian home_content 
+	padding top dan bottom -> 50px
+	padding kiri dan kanan -> 40px
++ Bersih2 bagian register jadi trainer - krn kt fokus ke customer segment dl aja
++ Penambahan 2 pictures pada bagian slider hero di index.php (biar ga monoton slider bg nya)
++ add about.html
++ penyesuaian page yg terpasang salah (bagian courses sudah dirapikan)
+
+note tambahan : 
+nnt tgl masukin link video aja koq. videonya blm diburu :)	
+
+[CHANGE LOG V8]
++ Edit pada bagian register, nambahin username
++ init DB 
+	jalanin init.php pake yg w buat bat ya.	(folder Initialize DB +  DB config)
++ Add referensi buat bantu dev backend
+
+[CHANGE LOG V9]
++ penambahan halaman training pada course forensik
++ udah bisa donlod soal ya
++ edit halaman courses
+
+note: kalo mau kalibrasi tolong import ulang ini:
+	- latihan1.html lgsg d folder utama
+	- coursepage_forensic dst itu import ulang ke folder utama
+	- folder soal-forensik jangan lupa diimpor
+
+
+[CHANGE LOG V.10]
+
++ Edit ERD nambah table buat flag.ERD terbaru silakan cek folder ERD
++ file yang belum bisa jalan dipindah ke folder TOLONG FIX INI DONG
++ Edit DB nambah table flag
++ bikin tempat buat submit flag
++ Edit Front end - register-optional.php
++ Beresin Front end courses
++ Testing Login register (udah bisa masuk ke DB)
++ udah bisa logout
++ print username yang lagi masuk sesinya
++ EDIT CSS coursepages css ditambahin font color jd color: #FFFFFF; bagian container
++ Edit Query buat forum ama chat +  rapiin UI
++ file elements.php dipindah ke folder yg ga kepake
+
+catatan:
+- belum bisa reply chat
+- belum bisa bikin room forum baru
+- belum bisa submit flag
+
+[CHANGE LOG V.15 - FINAL]
++ fitur payment sudah berjalan
++ fitur submit flag sudah berjalan
++ fitur forum dan forum thread sudah berjalan 
++ penyesuaian DB dengan ERD , Use case, dan class diagram baru
++ fitur profile sudah ada - user bisa cek profilenya dia disitu
+
